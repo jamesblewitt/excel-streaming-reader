@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.monitorjbl</groupId>
-  <artifactId>xlsx-streamer_fork-sst-memory-fix</artifactId>
+  <artifactId>xlsx-streamer_fork-sst-npe-fix</artifactId>
   <version>2.1.0</version>
   <name>Streaming Excel reader</name>
   <description>Streaming Excel reader. Forked to fix a bug when reading empty cells from very large tables when building the Shared String Table</description>
