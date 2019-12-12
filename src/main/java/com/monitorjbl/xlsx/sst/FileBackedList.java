@@ -49,9 +49,9 @@ public class FileBackedList implements AutoCloseable {
 
   public void add(String str) {
     try {
-      if (str!=null && str.length()>0) {
-        writeToFile(str);
-      }
+        if (str!=null) {
+            writeToFile(str);
+        }
     } catch(IOException e) {
       throw new RuntimeException(e);
     }
